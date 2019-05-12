@@ -103,7 +103,6 @@ p {
 .header-iphone img {
   width: 100%; }
 
-/*    About us   */
 .choose-us-wrapper {
   padding-top: 50px; }
   .choose-us-wrapper .about-iphone img {
@@ -150,3 +149,145 @@ p {
     .choose-us-wrapper .choose-us-item p {
       color: #727272;
       font-size: 15px; }
+
+.testimonial {
+  background: url("../images/testimonial-bg.jpg") 50% 50% no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .testimonial-overlay {
+    background: rgba(31, 31, 31, 0.75);
+    padding: 80px 0; }
+    .testimonial-overlay .carousel-indicators {
+      bottom: -50px; }
+      .testimonial-overlay .carousel-indicators li {
+        border-radius: 50%;
+        width: 10px;
+        height: 10px; }
+    .testimonial-overlay .carousel-item img {
+      border: 2px solid #129CF3;
+      border-radius: 50%;
+      padding: 3px; }
+  .testimonial-caption {
+    padding-bottom: 30px; }
+    .testimonial-caption h2 {
+      color: #129CF3;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 30px;
+      margin-top: 25px; }
+    .testimonial-caption h4 {
+      color: #129CF3; }
+      .testimonial-caption h4 span {
+        color: #D8D8D8;
+        font-style: italic;
+        font-weight: 300; }
+    .testimonial-caption p {
+      color: #D8D8D8;
+      font-size: 18px;
+      line-height: 27px;
+      padding-top: 50px; }
+
+.features-inner-wrapper {
+  padding: 30px 0 70px 0; }
+  .features-inner-wrapper .left-feature-item {
+    position: relative;
+    padding-right: 90px;
+    margin: 35px 0 65px 0;
+    text-align: right; }
+    .features-inner-wrapper .left-feature-item-icon {
+      position: absolute;
+      right: 0;
+      top: -8px;
+      font-size: 40px;
+      color: #129CF3;
+      width: 90px;
+      height: 90px;
+      text-align: center; }
+    .features-inner-wrapper .left-feature-item h3 {
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 21px;
+      color: #333; }
+    .features-inner-wrapper .left-feature-item p {
+      color: #333;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 25px; }
+  .features-inner-wrapper .feature-iphone img {
+    width: 100%; }
+  .features-inner-wrapper .right-feature-item {
+    position: relative;
+    padding-left: 90px;
+    margin: 35px 0 65px 0;
+    text-align: left; }
+    .features-inner-wrapper .right-feature-item-icon {
+      position: absolute;
+      left: 0;
+      top: -8px;
+      font-size: 40px;
+      color: #129CF3;
+      width: 90px;
+      height: 90px;
+      text-align: center; }
+    .features-inner-wrapper .right-feature-item h3 {
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 21px;
+      color: #333; }
+    .features-inner-wrapper .right-feature-item p {
+      color: #333;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 25px; }
+
+.purchase-now {
+  background-color: #1a1a1a;
+  padding: 100px 0; }
+  .purchase-now p,
+  .purchase-now a {
+    color: #dfdfdf;
+    font-size: 18px;
+    font-weight: 300; }
+  .purchase-now .btn,
+  .purchase-now .btn:active,
+  .purchase-now .btn:visited,
+  .purchase-now .btn:focus {
+    background-color: #129CF3;
+    border: 1px solid #129CF3;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px;
+    text-transform: uppercase;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+  .purchase-now .btn:hover {
+    background-color: #1274B1;
+    border-color: #316B90; }
+
+.counter {
+  background: url("../images/counter-bg.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .counter .counter-overlay {
+    padding: 120px 0;
+    background: rgba(0, 0, 0, 0.4); }
+    .counter .counter-overlay .counter-item i {
+      color: #129CF3;
+      font-size: 60px; }
+    .counter .counter-overlay .counter-item h2 {
+      font-family: "Source Sans Pro", sans-serif;
+      color: #D7DADB;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 35px;
+      margin: 15px 0 1px 0; }
+    .counter .counter-overlay .counter-item p {
+      color: #D7DADB;
+      font-size: 20px;
+      margin-top: 0px;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-family: "Source Sans Pro", sans-serif; }
