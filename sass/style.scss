@@ -51,7 +51,7 @@ p {
 .header {
     background: url(../images/header-bg.jpg) 50% 50% no-repeat;
     background-attachment: fixed;
-    background-size: cover
+    background-size: cover;
 }
 
 .header-overlay {
@@ -224,7 +224,7 @@ p {
 }
 
 //  Testimonials   
-.testimonial {
+.section-testimonial {
     background: url("../images/testimonial-bg.jpg") 50% 50% no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -642,6 +642,46 @@ p {
             color: #fff;
             font-size: 25px;
             padding-left: 5px;
+        }
+    }
+}
+
+.navbar {
+    background: rgba(1, 1, 1, 0.7) !important;
+    border: #444;
+    z-index: 110;
+    transition: all 1s;
+
+    .navbar-brand {
+        padding: 9px 30px;
+
+        img {
+            transition: all 1s;
+        }
+        
+    }
+
+    .navbar-nav {
+        li {
+            a {
+                color: #b5b5b5;
+                font-family: 'Raleway', sans-serif;
+
+                &:hover {
+                    color: #129CF3;
+                }
+
+                &:focus {
+                    color: #b5b5b5
+                }
+            }
+        }
+        .active{
+            a{
+                &,&:hover,&:focus{
+                    color: #fff!important;
+                }
+            }
         }
     }
 }
