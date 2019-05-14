@@ -41,27 +41,27 @@ p {
   background: url(../images/header-bg.jpg) 50% 50% no-repeat;
   background-attachment: fixed;
   background-size: cover; }
-
-.header-overlay {
-  background-color: rgba(31, 31, 31, 0.75); }
-  .header-overlay .logo {
-    padding-bottom: 50px; }
-  .header-overlay .header-text h1 {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 300;
-    line-height: 45px;
-    padding-top: 30px;
-    text-transform: uppercase; }
-  .header-overlay .header-text p {
-    color: #fff;
-    font-size: 17px;
-    line-height: 28px;
-    font-weight: 300; }
-
-.header-btns {
-  margin-top: 90px;
-  margin-bottom: 50px; }
+  .header-overlay {
+    background-color: rgba(31, 31, 31, 0.75); }
+    .header-overlay .logo {
+      padding-bottom: 50px; }
+    .header-overlay .header-text h1 {
+      color: #fff;
+      font-size: 35px;
+      font-weight: 300;
+      line-height: 45px;
+      padding-top: 30px;
+      text-transform: uppercase; }
+    .header-overlay .header-text p {
+      color: #fff;
+      font-size: 17px;
+      line-height: 28px;
+      font-weight: 300; }
+  .header-btns {
+    margin-top: 90px;
+    margin-bottom: 50px; }
+  .header-iphone img {
+    width: 100%; }
 
 .btn {
   color: #1274B1;
@@ -300,6 +300,11 @@ p {
   background-color: #1a1a1a;
   margin-top: -8px;
   position: relative; }
+  .available-on .row {
+    margin: 0; }
+    .available-on .row .container {
+      padding: 0;
+      margin: 0; }
 
 .available-title {
   padding-top: 75px; }

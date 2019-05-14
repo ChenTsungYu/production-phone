@@ -16,8 +16,6 @@ $(document).ready(function () {
     });
 });
 
-//add smooth scrolling
-
 // highlight menu item on scroll
 $(document).ready(function () {
     'use strict'; // 嚴格模式
@@ -71,6 +69,7 @@ $(document).ready(function () {
         });
     }, 10)
 });
+//add smooth scrolling
 $(document).ready(function () {
     var scroll = new SmoothScroll('a[href*="#section-"]');
 });
@@ -85,10 +84,15 @@ $(document).ready(function () {
         slideMargin: 50
     });
 });
-// Add counter
+// Add counter---> it does't work
 $(document).ready(function () {
     $('.counter-num').counterUp({
         delay: 10,
         time: 2000
     });
+});
+// Add animation/ Initialize Woo
+$(document).ready(function () {
+    'use strict';
+    new WOW().init();
 });

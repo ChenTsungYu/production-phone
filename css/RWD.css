@@ -1,0 +1,17 @@
+/* Small Devices */
+@media only screen and (max-width: 767px) {
+  .about-iphone img {
+    width: 100%; }
+  .purchase-now .col-md-3 {
+    text-align: center;
+    padding-top: 50px; } }
+
+/* Small Devices And Tablets */
+@media only screen and (max-width: 768px) {
+  .header-iphone {
+    display: none; }
+  .header-text, .header-btns {
+    text-align: center; } }
+
+/* Medius Devices , Desktop */
+/* Large Devices, Wide Screen */
