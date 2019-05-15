@@ -1,7 +1,6 @@
 /* Small Devices */
 @media only screen and (max-width: 767px) {
-    .navbar{
-    }
+   
     .about-iphone img {
         width: 100%;
     }
@@ -22,6 +21,13 @@
             text-align: center;
         }
     }
+    
+    .download-now{
+        img{
+            margin-left:  100px;
+        }
+        
+    }
 }
 
 /* Medius Devices , Desktop */
@@ -31,7 +37,7 @@
 }
 
 /* Large Devices, Wide Screen */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     
     
 }

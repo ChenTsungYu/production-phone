@@ -11,7 +11,9 @@
   .header-iphone {
     display: none; }
   .header-text, .header-btns {
-    text-align: center; } }
+    text-align: center; }
+  .download-now img {
+    margin-left: 100px; } }
 
 /* Medius Devices , Desktop */
 /* Large Devices, Wide Screen */
