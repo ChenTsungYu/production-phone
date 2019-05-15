@@ -18,43 +18,15 @@ $(document).ready(function () {
 
 // highlight menu item on scroll
 $(document).ready(function () {
-    'use strict'; // 嚴格模式
+    'use strict'; 
 
     $('.navbar-nav li a').on('click', function () {
-        'use strict'; // 嚴格模式
+        'use strict';
         $('.navbar-nav li a').parent().removeClass('active');
 
         $(this).parent().addClass('active');
     })
-    //$('.navbar-nav li a')
 });
-
-// highlight menu item on scroll
-// 用 data-spy="scroll" 替換
-/*
-$(document).ready(function () {
-    'use strict'; // 嚴格模式
-    $(window).on('scroll', function () {
-        'use strict'; // 嚴格模式
-
-        $('section').each(function () {
-
-            //  ABOUT, CONTACT, DOWNLOAD
-            var bb = $(this).attr('id');
-            var hei = $(this).outerHeight();
-            var grttop = $(this).offset().top - 70;
-
-            if ($(window).scrollTop() > grttop && $(window).scrollTop() < grttop + hei) {
-
-                $(".navbar-nav li a[href='#" + bb + "']").parent().addClass("active");
-
-            } else {
-                $(".navbar-nav li a[href='#" + bb + "']").parent().removeClass("active");
-            }
-        })
-    })
-});
-*/
 // add auto padding to header 
 $(document).ready(function () {
     'use strict';
